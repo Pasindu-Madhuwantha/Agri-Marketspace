@@ -1,0 +1,98 @@
+.weather-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./weather_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -3%;
+  }
+  
+  .react-autosuggest__container {
+    position: relative;
+    margin-top: -23%;
+  }
+  
+  .react-autosuggest__input {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+  }
+  
+  .react-autosuggest__input:focus {
+    outline: none;
+  }
+  
+  .react-autosuggest__input--open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .react-autosuggest__suggestions-container {
+    display: none;
+    position: absolute;
+    top: 5px;
+    width: 200px;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    margin-top: -10%;
+  }
+  
+  .react-autosuggest__suggestions-container--open {
+    display: block;
+  }
+  
+  .react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .react-autosuggest__suggestion {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .react-autosuggest__suggestion--highlighted {
+    background-color: #ddd;
+  }
+  
+  .weather-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333;
+    margin-top: 50%;
+  }
+  
+  .weather-data h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 50%;
+  }
+  
+  .weather-data p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 50%;
+  }
+  
